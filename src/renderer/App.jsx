@@ -9,6 +9,7 @@ import { MemoryRouter as Router, Route, Switch } from "react-router-dom";
 import Home from '../pages/Home';
 import About from '../pages/About';
 import RouteLayout from '../layout/RouteLayout';
+import './index.css';
 
 export const App = () => {
   return (
