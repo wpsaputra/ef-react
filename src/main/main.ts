@@ -19,7 +19,7 @@ const createWindow = () => {
   mainWindow = new BrowserWindow({
     width: 800,
     height: 600,
-    // frame: false,
+    frame: false,
     // titleBarStyle: 'hiddenInset',
     // transparent: true,
   })
