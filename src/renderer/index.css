@@ -8,3 +8,8 @@ body {
 .nav-selected {
   background-color: brown;
 }
+
+body {
+  -webkit-user-select: none;
+  /* -webkit-app-region: drag; */
+}
