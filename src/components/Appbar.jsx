@@ -7,9 +7,10 @@ export default function Appbar() {
             <img src={Logo} style={{height: "20px"}} />
             <span style={{color: "white", fontSize: "14px"}}>Visual Studio Code</span>
             <div style={{display: "flex"}}>
-                <a className="nonCloseButton" style={{height: "32px", width: "46px", fontFamily: "MDL2", color: "white"}}>&#xE921;</a>
-                <a className="nonCloseButton" style={{height: "32px", width: "46px", fontFamily: "MDL2", color: "white"}}>&#xE923;</a>
-                <a className="closeButton" style={{height: "32px", width: "46px", fontFamily: "MDL2", color: "white"}}>&#xE8BB;</a>
+                <a id="minimize-button" className="nonCloseButton" style={{height: "32px", width: "46px", fontFamily: "MDL2", color: "white"}}>&#xE921;</a>
+                <a id="maximize-button" className="nonCloseButton" style={{height: "32px", width: "46px", fontFamily: "MDL2", color: "white"}}>&#xE922;</a>
+                <a id="unmaximize-button" className="nonCloseButton" style={{height: "32px", width: "46px", fontFamily: "MDL2", color: "white", display: "none"}}>&#xE923;</a>
+                <a id="close-button" className="closeButton" style={{height: "32px", width: "46px", fontFamily: "MDL2", color: "white"}}>&#xE8BB;</a>
             </div>
         </div>
     )
