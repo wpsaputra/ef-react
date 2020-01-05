@@ -9,8 +9,8 @@
 }
 
 body {
-  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; */
-  font-family: 'MDL2';
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  /* font-family: 'MDL2'; */
   /* margin: auto;
   max-width: 38rem;
   padding: 2rem; */
@@ -29,3 +29,26 @@ a, button {
   -webkit-app-region: no-drag;
 }
 
+.closeButton{
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  font-size: 10px;
+}
+
+.closeButton:hover{
+  background-color: red;
+}
+
+.nonCloseButton{
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  font-size: 10px;
+}
+
+.nonCloseButton:hover{
+  background-color: #505050;
+}

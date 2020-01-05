@@ -1,4 +1,4 @@
-import { app, BrowserWindow, Menu } from 'electron'
+import { app, BrowserWindow, Menu, globalShortcut } from 'electron'
 declare var MAIN_WINDOW_WEBPACK_ENTRY: any
 
 // Handle creating/removing shortcuts on Windows when installing/uninstalling.
@@ -37,6 +37,19 @@ const createWindow = () => {
     // when you should delete the corresponding element.
     mainWindow = null
   })
+
+  globalShortcut.register('f5', function() {
+		console.log('f5 is pressed')
+		mainWindow.reload()
+	})
+	globalShortcut.register('CommandOrControl+R', function() {
+		console.log('CommandOrControl+R is pressed')
+		mainWindow.reload()
+  })
+  globalShortcut.register('CommandOrControl+I', function() {
+		console.log('CommandOrControl+I is pressed')
+		mainWindow.webContents.openDevTools()
+	})
 
   // mainWindow.setMenu(null);
   // mainWindow.setAutoHideMenuBar(true);
