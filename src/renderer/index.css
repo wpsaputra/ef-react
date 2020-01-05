@@ -52,3 +52,7 @@ a, button {
 .nonCloseButton:hover{
   background-color: #505050;
 }
+
+#root{
+  background-color: #252526;
+}

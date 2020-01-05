@@ -25,7 +25,8 @@ const createWindow = () => {
     // transparent: true,
     webPreferences: {
       preload: path.join(app.getAppPath(), 'src', 'main', 'preload.js')
-    }
+    },
+    backgroundColor: "#252526",
   })
 
   // and load the index.html of the app.
