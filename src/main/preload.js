@@ -1,6 +1,7 @@
 const { remote } = require('electron');
 
-let currWindow = remote.BrowserWindow.getFocusedWindow();
+// let currWindow = remote.BrowserWindow.getFocusedWindow();
+let currWindow = remote.getCurrentWindow();
 
 globalThis.minimizeCurrentWindow = function(){
   currWindow.minimize();

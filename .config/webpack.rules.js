@@ -44,11 +44,11 @@ module.exports = [
     test: /\.(woff(2)?|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
     use: [
       {
-        loader: 'file-loader',
-        options: {
-          name: '[name].[ext]',
-          outputPath: 'fonts/'
-        }
+        loader: 'url-loader',
+        // options: {
+        //   name: '[name].[ext]',
+        //   outputPath: 'fonts/'
+        // }
       }
     ]
   },
@@ -56,11 +56,11 @@ module.exports = [
     test: /\.(jpe?g|png|gif)$/i,
     use: [
       {
-        loader: 'file-loader',
-        options: {
-          name: '[name].[ext]',
-          outputPath: 'images/'
-        }
+        loader: 'url-loader',
+        // options: {
+        //   name: '[name].[ext]',
+        //   outputPath: 'images/'
+        // }
       }
     ]
   }

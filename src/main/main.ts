@@ -25,6 +25,7 @@ const createWindow = () => {
     // transparent: true,
     webPreferences: {
       preload: path.join(app.getAppPath(), 'src', 'main', 'preload.js')
+      // preload: path.join(__dirname, 'preload.js')
     },
     backgroundColor: "#252526",
   })
