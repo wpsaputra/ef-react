@@ -22,7 +22,7 @@ body {
 
 html {
   -webkit-user-select: none;
-  -webkit-app-region: drag;
+  /* -webkit-app-region: drag; */
 }
 
 a, button {
@@ -55,4 +55,18 @@ a, button {
 
 #root{
   background-color: #252526;
+}
+
+.titlebar-drag-region{
+  flex: 1;
+  top: 6px;
+  left: 6px;
+  display: block;
+  position: absolute;
+  width: calc(100% - 12px);
+  height: calc(32px - 6px);
+  /* height: calc(auto - 6px); */
+  /* background-color: aquamarine; */
+  z-index: -1;
+  -webkit-app-region: drag; 
 }
