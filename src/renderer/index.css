@@ -110,7 +110,7 @@ a, button {
   /* background-color: aquamarine; */
 }
 
-.sideButton:active{
+.active{
   color: white !important;
   border-left: 1px solid white !important;
   /* background-color: aquamarine; */
