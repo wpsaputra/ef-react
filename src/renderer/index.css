@@ -93,8 +93,9 @@ a, button {
 }
 
 .sideButton{
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  height: 48px;
   font-family: "codicon";
   display: flex; 
   justify-content: center;
@@ -106,12 +107,12 @@ a, button {
 
 .sideButton:hover{
   color: white !important;
-  border-left: 1px solid white !important;
+  /* border-left: 1px solid white !important; */
   /* background-color: aquamarine; */
 }
 
 .active{
   color: white !important;
-  border-left: 1px solid white !important;
+  border-left: 2px solid white !important;
   /* background-color: aquamarine; */
 }
