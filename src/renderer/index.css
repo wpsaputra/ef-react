@@ -8,6 +8,13 @@
   font-style: normal; 
 }
 
+@font-face {
+  font-family: 'codicon';
+  src: url("fonts/codicon.ttf") format("truetype"); 
+  font-weight: normal;
+  font-style: normal; 
+}
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   /* font-family: 'MDL2'; */
@@ -83,4 +90,28 @@ a, button {
   /* background-color: aquamarine; */
   z-index: -1;
   -webkit-app-region: drag; 
+}
+
+.sideButton{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: "codicon";
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  font-size: 24px;
+  color: #858585 !important;
+}
+
+.sideButton:hover{
+  color: white !important;
+  border-left: 1px solid white !important;
+  /* background-color: aquamarine; */
+}
+
+.sideButton:active{
+  color: white !important;
+  border-left: 1px solid white !important;
+  /* background-color: aquamarine; */
 }

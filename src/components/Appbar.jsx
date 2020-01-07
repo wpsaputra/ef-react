@@ -3,7 +3,7 @@ import Logo from "../renderer/images/vscode.png"
 
 export default function Appbar() {
     return (
-        <div style={{width: "100%", backgroundColor: "#323233", height: "32px", paddingLeft: "10px", display: "flex", justifyContent: "space-between", alignItems: "center"}}>
+        <div style={{width: "100%", backgroundColor: "#3c3c3c", height: "32px", paddingLeft: "10px", display: "flex", justifyContent: "space-between", alignItems: "center"}}>
             <div className="titlebar-drag-region"/>
             <img src={Logo} style={{height: "20px"}} />
             <span style={{color: "white", fontSize: "12px"}}>Visual Studio Code</span>
