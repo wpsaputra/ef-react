@@ -12,6 +12,10 @@ export default function Dashboard(props) {
   return (
     <div className="site">
       <Appbar/>
+      <div style={{width: "100%", height: "calc(100vh - 32px)"}}>
+        <div className="body-drag-region"></div>
+        {/* <h1 style={{color: "blue"}}>Tes</h1> */}
+      </div>
       {/* <NavLink to="/" className="menu-item-link" activeClassName="nav-selected" exact={true}>Home</NavLink> <br/>
       <NavLink to="/about" className="menu-item-link" activeClassName="nav-selected" exact={true}>About</NavLink>
       {children} */}
